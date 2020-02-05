@@ -32,7 +32,7 @@ NOTE THIS WILL NOT DELETE newFile.py from the github repository
 
 
 -- TO CREATE A BRANCH  -----
-git create <Branch name>
+git branch <Branch name>
 
 -- TO SWITCH A BRANCH 
 git checkout <Branch name>
