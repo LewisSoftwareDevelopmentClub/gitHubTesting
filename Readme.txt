@@ -19,6 +19,8 @@ git rm --cached newFile.py
 git commit -m " updat message"
 git push
 
+To remove all staged files :  git reset HEAD .
+
 NOTE THIS WILL NOT DELETE newFile.py from the github repository
 
 
@@ -28,7 +30,16 @@ NOTE THIS WILL NOT DELETE newFile.py from the github repository
 
 
 
+<<<<<<< HEAD
 ------- Creating a branch  -----------
 git branch < Branch name >
+=======
+
+-- TO CREATE A BRANCH  -----
+git branch <Branch name>
+
+-- TO SWITCH A BRANCH 
+git checkout <Branch name>
+>>>>>>> Branch1
 
 
