@@ -29,6 +29,6 @@ NOTE THIS WILL NOT DELETE newFile.py from the github repository
 
 
 ------- Creating a branch  -----------
-
+git branch < Branch name >
 
 
