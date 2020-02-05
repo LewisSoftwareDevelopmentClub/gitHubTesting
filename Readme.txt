@@ -43,3 +43,7 @@ git checkout <Branch name>
 >>>>>>> Branch1
 
 
+-- TO check the differences between branches
+git diff <Branch name > ... <Branch name>
+
+
