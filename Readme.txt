@@ -46,4 +46,6 @@ git checkout <Branch name>
 -- TO check the differences between branches
 git diff <Branch name > ... <Branch name>
 
+-- This is on the master , hopefully this will be added to Branch1 from a git pull
+
 
