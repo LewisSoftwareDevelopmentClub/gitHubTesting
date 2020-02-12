@@ -59,6 +59,13 @@ git rebase --continue
 # now you have a non conflict file you can push to the central repository
 
 
+----- TO MERGE BRANCH TO REPOSITORY ----------------
+switch to master
+git merge <Branch name>
+
+if you have conflicts then resolve them using the --rebase command and mergetool
+
+
 
 
 
