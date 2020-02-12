@@ -17,7 +17,7 @@ the will still be a conflict
 In order to remove this conflict   
 git rm --cached newFile.py
 git commit -m " updat message"
-git push
+git puesh
 
 To remove all staged files :  git reset HEAD .
 
