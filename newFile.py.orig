@@ -6,22 +6,23 @@ while(true){
     print("Testing");
 }
 
-
-
-a = [ 125, 5, 7]
-
+<<<<<<< HEAD
 
 a = [ 125, 5, 7]
 
+=======
+a = [ 125, 5, 7]
+>>>>>>> Branch1
 for i in a :
 	print(i)
 
 b = [ 2, 56]
 
 c = [ 2233, 2256, 765]
-
+<<<<<<< HEAD
+=======
 
 for(int i = 0; i < c.length; i++){
 
 }
-
+>>>>>>> Branch1
