@@ -30,13 +30,9 @@ NOTE THIS WILL NOT DELETE newFile.py from the github repository
 
 
 
-<<<<<<< HEAD
 ------- Creating a branch  -----------
 git branch < Branch name >
-=======
 
--- TO CREATE A BRANCH  -----
-git branch <Branch name>
 
 -- TO SWITCH A BRANCH 
 git checkout <Branch name>
@@ -46,10 +42,26 @@ git checkout <Branch name>
 -- TO check the differences between branches
 git diff <Branch name > ... <Branch name>
 
-<<<<<<< HEAD
 -- This is on the master , hopefully this will be added to Branch1 from a git pull
 
-=======
-my version of readme file
->>>>>>> changes to readme file
+
+
+
+----- Resolving merge conflicts ------------------
+
+If you wrote code and staged and commit it,  then get a conflict to the following
+
+
+git pull --rebase origin master
+git mergetool   -- this will bring up a gui to merge your conflicts , remember to save
+# once exiting the mergetool 
+git rebase --continue
+# now you have a non conflict file you can push to the central repository
+
+
+
+
+
+
+
 
