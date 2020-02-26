@@ -3,6 +3,5 @@ my lines
 novels 
 movies
 sports
-Boxing
 
 
