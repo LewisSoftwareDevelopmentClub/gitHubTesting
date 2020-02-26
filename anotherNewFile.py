@@ -1,5 +1,5 @@
 # This is another new file 
 
-
-for i in range(10) :
+myList = [ 1,2, 6, 7, ]
+for index, i in myList :
 	print(i)
