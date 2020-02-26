@@ -1,6 +1,6 @@
 # This is another new file 
 
-myList = [ 1,3, 2, 6, 7, ]
-for index, i in myList :
+# Empty
+for i in range(16) :
 	print(i)
 	print("Please take me into the master ")
